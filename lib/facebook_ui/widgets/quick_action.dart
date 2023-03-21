@@ -11,7 +11,7 @@ class quick_action extends StatelessWidget {
   Widget build(BuildContext context) {
     // TODO: implement build
     return Row(
-      children: [
+      children: const [
         quickButton(
           icon: Iconos_prueba.image,
           colorFondo: Color(0xffECF8E9),
